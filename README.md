@@ -17,6 +17,7 @@ Introduction to Android & App Fundamentals (S1-S3)
     * Group Activity #2 : Running Your App
     
     * Group Activity #3 : Learn Java for Android
+    
         Java compiler online https://www.compilejava.net
     
     * Group Activity #4 : Building a Simple User Interface
