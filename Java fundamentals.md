@@ -141,7 +141,10 @@
             700, 800, 900, 1000
         };
       ```
-  6. 
+  6. Operators
+     
+  7. xxx
   
 References :
   - [https://google.github.io/styleguide/javaguide.html](https://google.github.io/styleguide/javaguide.html)
+  - [https://docs.oracle.com/javase/tutorial/index.html](https://docs.oracle.com/javase/tutorial/index.html)
