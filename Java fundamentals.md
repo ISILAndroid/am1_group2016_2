@@ -2,7 +2,7 @@
 
 ## Java Fundamentals
 
-  1. Comentarios
+  1. Comments
   
   ```
     a. /** comment */
