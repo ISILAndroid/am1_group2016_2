@@ -10,7 +10,6 @@ Temary :
     - Introducción
         * Introducción al desarrollo de aplicaciones móviles para Android
         * Java para desarrolladores mobile
-        * Ejemplos
         
     - Fundamentos
         * Fundamentos
@@ -52,6 +51,7 @@ Temary :
 ## Notifications & Services (S14)
     - Notificaciones
     - Servicios y procesos en background
+    - Ejercicios
     
 ## Projects (S15)
     - Sustentación de proyectos
