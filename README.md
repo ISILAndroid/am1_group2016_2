@@ -39,7 +39,7 @@ Temary :
     - Adapter y custom Adapters
     - ListView y RecyclerView
     - Patrón Holder
-    - Eventos I
+    - Eventos II
     - Ejercicios
     
 ## Navigation & Fragments (S11-S13)
@@ -55,5 +55,5 @@ Temary :
 ## Projects (S15)
     - Sustentación de proyectos
 
-References
+### References
     - [https://developer.android.com/index.html](https://developer.android.com/index.html)
