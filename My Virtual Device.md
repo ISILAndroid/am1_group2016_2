@@ -6,7 +6,7 @@
 
 2. Select Hardware
 
-  ![](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson1/avd_emulator/avd02.png)
+  ![](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson1/avd_emulator/avd2.png)
   
 3. System Image
 
