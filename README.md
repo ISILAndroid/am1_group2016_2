@@ -21,3 +21,6 @@ Introduction to Android & App Fundamentals (S1-S3)
         Java compiler online https://www.compilejava.net
     
     * Group Activity #4 : Building a Simple User Interface
+    
+References :
+   - [https://docs.oracle.com/javase/tutorial/](https://docs.oracle.com/javase/tutorial/)
