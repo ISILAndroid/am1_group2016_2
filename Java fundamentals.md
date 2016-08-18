@@ -142,7 +142,7 @@
         };
       ```
   6. Operators
-     
+     ![operators](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson1/java_operators.png)
   7. xxx
   
 References :
