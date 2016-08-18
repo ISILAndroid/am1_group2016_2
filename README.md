@@ -12,3 +12,7 @@ Curso de Aplicaciones Móviles 1 - Ciclo 2016 2 ISIL
 
 ## Group Activity #4
     Building a Simple User Interface
+    
+    
+References
+    - [https://developer.android.com/index.html](https://developer.android.com/index.html)
