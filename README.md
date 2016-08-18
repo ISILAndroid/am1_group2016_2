@@ -37,16 +37,17 @@ Temary :
         
 ## User Interface II (S7-S10)
     - Adapter y custom Adapters
-    - ListView y RecyclerView
     - Patrón Holder
+    - ListView y RecyclerView
+    - Custom Components
     - Eventos II
     - Ejercicios
     
 ## Navigation & Fragments (S11-S13)
-    - Custom Components
     - Navegación Tab,Menus, Navigation Drawer
     - Fragments 
     - Comunicación entre fragments
+    - Ejercicios
         
 ## Notifications & Services (S14)
     - Notificaciones
