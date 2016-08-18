@@ -3,7 +3,7 @@ Curso de Aplicaciones Móviles I - Grupo 2016-I ISIL
 
 Instructor : Eduardo José Medina Alfaro - email: isil@qd.pe
 
-Temary:
+Temary :
 
     ## Introduction to Android & App Fundamentals (S1-S3)
     
