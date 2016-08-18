@@ -14,9 +14,11 @@
   
   ![](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson1/avd_emulator/avd4.png)
   
+4. Device Configuration
+  
   ![](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson1/avd_emulator/avd5.png)
   
-4. Start Emulator
+5. Start Emulator
 
  ![](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson1/avd_emulator/avd6.png)
  
