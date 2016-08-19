@@ -12,15 +12,18 @@ Introduction to Android & App Fundamentals (S1-S3)
     * Gradle
 
 - Group Activities
-    * Group Activity #1 : Building Your First App
 
-    * Group Activity #2 : Running Your App
+    * Group Activity #1 : Open template project
     
-    * Group Activity #3 : Learn Java for Android
+    * Group Activity #2 : Building Your First App
+    
+    * Group Activity #3 : Running Your App
+    
+    * Group Activity #4 : Learn Java for Android
     
         Java compiler online https://www.compilejava.net
     
-    * Group Activity #4 : Building a Simple User Interface
+    * Group Activity #5 : Building a Simple User Interface
     
 References :
    - [https://docs.oracle.com/javase/tutorial/](https://docs.oracle.com/javase/tutorial/)
