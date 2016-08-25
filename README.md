@@ -8,6 +8,8 @@ Introduction to Android & App Fundamentals (S1-S3)
     
     * Group Activity #2 : Building your calculator
     
+      ![calculadora](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson2/calculadora.png)
+      
       Comencemos haciendo la lógica de las operaciones, para esto podemos probar su funcionamiento en el compilador de Java online [https://www.compilejava.net](https://www.compilejava.net)
       
       ```
