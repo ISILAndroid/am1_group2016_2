@@ -1,6 +1,6 @@
 # am1_group2016_2 Lesson2
 
-- Introduction to Android & App Fundamentals (S1-S3)
+Introduction to Android & App Fundamentals (S1-S3)
 
 - Group Activities
 
