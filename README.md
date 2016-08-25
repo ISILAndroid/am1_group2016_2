@@ -34,6 +34,7 @@ Introduction to Android & App Fundamentals (S1-S3)
       ```
     
     * Group Activity #3 : Validating a registration form User
+      ![form](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson2/form.png)
       
       Considerar las siguientes validaciones para un formulario de registro
       ```
