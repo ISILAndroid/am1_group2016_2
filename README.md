@@ -9,7 +9,7 @@ Introduction to Android & App Fundamentals (S1-S3)
     * Group Activity #2 : Building your calculator
     
       Comencemos haciendo la lógica de las operaciones,para esto podemos probar su funcionamiento con java
-      ´´´
+      ```
             
          private int sumar(int op1, int op2) {
               return op1+op2;
@@ -24,7 +24,7 @@ Introduction to Android & App Fundamentals (S1-S3)
               //TODO validar si op2!=0
               return op1/op2;
           }
-      ´´´
+      ```
     
     * Group Activity #3 : Validating a registration form User
     
