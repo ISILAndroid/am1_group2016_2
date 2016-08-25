@@ -4,7 +4,7 @@ Introduction to Android & App Fundamentals (S1-S3)
 
 - Group Activities
 
-    * Group Activity #1 : 
+    * Group Activity #1 : Building a Simple User Interface
     
     * Group Activity #2 : Building your calculator
     
