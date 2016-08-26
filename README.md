@@ -6,6 +6,8 @@ Introduction to Android & App Fundamentals (S1-S3)
 
     * Group Activity #1 : Building a Simple User Interface
     
+    [ExampleImages](https://github.com/ISILAndroid/am1_group2016_2/tree/Lesson2/ExampleImages)
+    
     * Group Activity #2 : Building your calculator
     
       ![calculadora](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson2/calculadora.png)
