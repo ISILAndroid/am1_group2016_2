@@ -5,6 +5,7 @@ Introduction to Android & App Fundamentals (S1-S3)
 - Group Activities
 
     * Group Activity #1 : Building a Simple User Interface
+      ![hello world](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson2/hello_world.png)
     
       [ExampleImages](https://github.com/ISILAndroid/am1_group2016_2/tree/Lesson2/ExampleImages)
     
