@@ -46,6 +46,7 @@ public class CalculadoraActivity extends AppCompatActivity implements View.OnCli
         //TODO capturar valores
         String mOp1=editTextOp1.getText().toString();
         String mOp2=editTextOp2.getText().toString();
+        if(mOp1.isEmpty()|| mOp2.isEmpty())return;
         op1= Integer.parseInt(mOp1);
         op2= Integer.parseInt(mOp2);
 
