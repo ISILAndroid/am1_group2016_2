@@ -5,13 +5,13 @@ Introduction to Android & App Fundamentals (S1-S3)
 - Group Activities
 
     * Group Activity #1 : Building a Simple User Interface
-      ![hello world](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson2/hello_world.png)
+      ![hello world](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson2/hello_world.png =250x)
     
       [ExampleImages](https://github.com/ISILAndroid/am1_group2016_2/tree/Lesson2/ExampleImages)
     
     * Group Activity #2 : Building your calculator
     
-      ![calculadora](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson2/calculadora.png)
+      ![calculadora](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson2/calculadora.png =250x)
       
       Comencemos haciendo la lógica de las operaciones, para esto podemos probar su funcionamiento en el compilador de Java online [https://www.compilejava.net](https://www.compilejava.net)
       
@@ -37,7 +37,7 @@ Introduction to Android & App Fundamentals (S1-S3)
       ```
     
     * Group Activity #3 : Validating a registration form User
-      ![form](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson2/form.png)
+      ![form](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson2/form.png =250x)
       
       Considerar las siguientes validaciones para un formulario de registro
       ```
