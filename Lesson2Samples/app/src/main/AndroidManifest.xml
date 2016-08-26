@@ -16,8 +16,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".RegisterActivity" />
+        <activity android:name=".RegisterBaseActivity" />
         <activity android:name=".CalculadoraActivity" />
-        <activity android:name=".fundamentals.JavaFundamentalsActivity"></activity>
+        <activity android:name=".CalculadoraBaseActivity" />
     </application>
 
 </manifest>

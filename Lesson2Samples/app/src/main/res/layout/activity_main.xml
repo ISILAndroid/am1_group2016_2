@@ -22,11 +22,31 @@
             android:background="@color/blue_bg"
             android:layout_marginBottom="8dp"
             android:gravity="center"
+            android:text="Calculadora Base"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:id="@+id/tviCalculadoraB"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_bg"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
             android:text="Calculadora"
             android:textSize="20sp"
             android:padding="10dp"
             android:id="@+id/tviCalculadora"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_bg"
+            android:gravity="center"
+            android:text="Registro Base"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/tviRegistroB"/>
 
         <TextView
             android:layout_width="match_parent"
