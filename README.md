@@ -7,4 +7,4 @@ Introduction to Android & App Fundamentals (S1-S3)
 
     
 References 
-    * [https://docs.oracle.com/javase/tutorial/java/concepts/](https://docs.oracle.com/javase/tutorial/java/concepts/)
+    - [https://docs.oracle.com/javase/tutorial/java/concepts/](https://docs.oracle.com/javase/tutorial/java/concepts/)
