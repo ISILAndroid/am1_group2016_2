@@ -4,6 +4,8 @@ Introduction to Android & App Fundamentals (S1-S3)
 
 - Java POO (Object-Oriented Programming Concepts)
     * Objetos y Clases
+   ![bicycle class](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson3/concepts-bicycleObject.gif)
+
    ```
    public class Bicycle {
       
