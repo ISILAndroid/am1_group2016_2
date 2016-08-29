@@ -39,6 +39,25 @@ Introduction to Android & App Fundamentals (S1-S3)
    ```
    
     * Herencia
+    
+    ![bicycle Herencia](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson3/concepts-bikeHierarchy1.gif)
+    
+    ```
+    public class MountainBike extends Bicycle {
+
+    // new fields and methods defining 
+    // a mountain bike would go here
+
+        @Override 
+        public void printStates() {
+                 System.out.println("MountainBike cadence:" +
+                     cadence + " speed:" + 
+                     speed + " gear:" + gear);
+            }
+      
+      }
+   ```
+   
     * Interfaces
     * Excepciones
 
