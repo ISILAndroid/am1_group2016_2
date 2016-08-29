@@ -59,6 +59,20 @@ Introduction to Android & App Fundamentals (S1-S3)
    ```
    
     * Interfaces
+   ```
+       interface Bicycle {
+      
+          //  wheel revolutions per minute
+          void changeCadence(int newValue);
+      
+          void changeGear(int newValue);
+      
+          void speedUp(int increment);
+      
+          void applyBrakes(int decrement);
+      }
+   ```
+   
     * Excepciones
 
 - Ejercicios
