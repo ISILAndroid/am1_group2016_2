@@ -17,3 +17,5 @@ References
 
 [Java Katas](http://codekata.pragprog.com/)
 
+[Solución Katas](https://github.com/vfarcic/TechnologyConversationsJava)
+
