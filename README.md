@@ -2,7 +2,12 @@
 
 Introduction to Android & App Fundamentals (S1-S3)
 
-- Java POO (Object-Oriented Programming Concepts) 
+- Java POO (Object-Oriented Programming Concepts)
+    * Objetos y Clases
+    * Herencia
+    * Interfaces
+    * Excepciones
+
 - Ejercicios
 
     
