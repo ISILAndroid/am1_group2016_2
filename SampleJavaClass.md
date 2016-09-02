@@ -36,9 +36,9 @@ public class HelloWorld
 
   public class Bicycle {
 
-      int cadence = 0;
-      int speed = 0;
-      int gear = 1;
+      int cadence = 0; //cadencia de pedaleo
+      int speed = 0; //velocidad
+      int gear = 1; //cambios
 
       void changeCadence(int newValue) {
            cadence = newValue;
