@@ -36,18 +36,46 @@ public class Bicycle
      private int gear = 1; //cambios
   
   	//Constructor	
-  	public void Bicycle(){
+  	 public Bicycle(){
   	}
   
-    public void Bicycle(int cadence, int speed, int gear){
+     public Bicycle(int cadence, int speed, int gear){
       this.cadence= cadence;
       this.speed= speed;
       this.gear= gear;
   	}
   
-   	public void Bicycle(int cadence){
+   	 public Bicycle(int cadence){
       this.cadence= cadence;
   	}
+  
+  //METODOS de acceso set get
+    public void setCadence(int cadence)
+    {
+      this.cadence= cadence;
+    }
+  
+    public int getCadence(){
+      return this.cadence;
+    }
+  
+    public void setSpeed(int speed)
+    {
+      this.speed= speed;
+    }
+  
+    public int getSpeed(){
+      return this.speed;
+    }
+  
+    public void setGear(int gear)
+    {
+      this.gear= gear;
+    }
+  
+    public int getGear(){
+      return this.gear;
+    }
   
      public void changeCadence(int newValue) {
            cadence = newValue;}
