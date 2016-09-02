@@ -10,4 +10,4 @@
   ![img](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson3/images/JavaClass06.png)
   ![img](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson3/images/JavaClass07.png)
   ![img](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson3/images/JavaClass06.png)
-2. 
+
