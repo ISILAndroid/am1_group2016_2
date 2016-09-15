@@ -18,11 +18,14 @@ User Interface I (S4-S6)
 
 - Group Activities
 
-    * Group Activity #1 : 
+    * Group Activity #1 : Knowing the layouts
     
-    * Group Activity #2 :
+    * Group Activity #2 : Learning to use the weights
     
+    * Group Activity #3 : Creating my first UI
     
+##
+
 References :
    - [https://developer.android.com/guide/topics/ui/index.html](https://developer.android.com/guide/topics/ui/index.html)
    - [https://developer.android.com/training/basics/firstapp/building-ui.html](https://developer.android.com/training/basics/firstapp/building-ui.html)
