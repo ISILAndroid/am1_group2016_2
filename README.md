@@ -7,8 +7,11 @@ User Interface I (S4-S6)
     * Interfaz de Usuario
     
         ** Layouts
+
         ** Widgets
+        
         ** Material Design
+        
     * Eventos
     * Ejercicios
 
