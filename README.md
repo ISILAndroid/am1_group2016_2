@@ -30,7 +30,7 @@ User Interface I (S4-S6)
 
   - Estructura de un elemento XML :
   
-  ´´´
+```
     <?xml version="1.0" encoding="utf-8"?>
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
@@ -42,40 +42,40 @@ User Interface I (S4-S6)
         <TextView android:text="Hello World!" android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </RelativeLayout>
-  ´´´
+```
 
   - ID :
   
-    ´´´
+```
       android:id="@+id/img"
-    ´´´
+```
 
-    ´´´
+```
       <TextView
             android:id="@+id/txtImg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Medium Text"
             android:textAppearance="?android:attr/textAppearanceMedium" />
-    ´´´
+```
     
   - Atributos :
     
-    ´´´
+```
         android:layout_width="300dp"
-    ´´´
+```
     
   - En el código podemos invocar a los elementos XML de la siguiente manera :
   
-  ´´´
+```
       @Override
       protected void onCreate(Bundle savedInstanceState) {
           super.onCreate(savedInstanceState);
           setContentView(R.layout.activity_main);
       }
-  ´´´
+```
     
-  ´´´
+```
      private ImageView img;
      private Button btnImg;
      private TextView txtImg;
@@ -83,7 +83,7 @@ User Interface I (S4-S6)
      img= (ImageView)findViewById(R.id.img);
      btnImg= (Button)findViewById(R.id.butImg);
      txtImg = (TextView)findViewById(R.id.txtImg);
-  ´´´
+```
   
 References :
    - [https://developer.android.com/guide/topics/ui/index.html](https://developer.android.com/guide/topics/ui/index.html)
