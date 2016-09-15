@@ -113,3 +113,5 @@ References :
    - [https://developer.android.com/training/basics/firstapp/building-ui.html](https://developer.android.com/training/basics/firstapp/building-ui.html)
    - [https://developer.android.com/design/index.html](https://developer.android.com/design/index.html)
    - [https://developer.android.com/guide/topics/ui/declaring-layout.html](https://developer.android.com/guide/topics/ui/declaring-layout.html)
+   - [http://android.inspired-ui.com/](http://android.inspired-ui.com/)
+   
