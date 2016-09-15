@@ -24,3 +24,5 @@ User Interface I (S4-S6)
     
 References :
    - [https://developer.android.com/guide/topics/ui/index.html](https://developer.android.com/guide/topics/ui/index.html)
+   - [https://developer.android.com/training/basics/firstapp/building-ui.html](https://developer.android.com/training/basics/firstapp/building-ui.html)
+   - [https://developer.android.com/design/index.html](https://developer.android.com/design/index.html)
