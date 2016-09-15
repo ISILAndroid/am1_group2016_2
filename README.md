@@ -104,7 +104,8 @@ User Interface I (S4-S6)
     
     <img src="https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson4/images/gridview.png" height="480">
   
-  * Input Controls
+  * Exercices
+  
 
 
 References :
