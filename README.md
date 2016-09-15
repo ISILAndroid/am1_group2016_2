@@ -26,6 +26,40 @@ User Interface I (S4-S6)
     
 # .
 
+## Overview
+
+  - Estructura de un elemento XML :
+  ´´´
+    <?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+    
+        <TextView android:text="Hello World!" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+  ´´´
+  - ID :
+    ´´´
+      android:id="@+id/img"
+    ´´´
+    
+    ´´´
+      <TextView
+            android:id="@+id/txtImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    ´´´
+  - Atributos :
+    ´´´
+        android:layout_width="300dp"
+    ´´´
+  - xxx
 References :
    - [https://developer.android.com/guide/topics/ui/index.html](https://developer.android.com/guide/topics/ui/index.html)
    - [https://developer.android.com/training/basics/firstapp/building-ui.html](https://developer.android.com/training/basics/firstapp/building-ui.html)
