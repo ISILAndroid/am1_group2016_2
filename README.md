@@ -84,7 +84,15 @@ User Interface I (S4-S6)
      btnImg= (Button)findViewById(R.id.butImg);
      txtImg = (TextView)findViewById(R.id.txtImg);
 ```
-  
+
+
+## User Interface
+
+### Layouts
+
+### Input Controls
+
+
 References :
    - [https://developer.android.com/guide/topics/ui/index.html](https://developer.android.com/guide/topics/ui/index.html)
    - [https://developer.android.com/training/basics/firstapp/building-ui.html](https://developer.android.com/training/basics/firstapp/building-ui.html)
