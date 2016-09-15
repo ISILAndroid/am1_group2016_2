@@ -42,11 +42,13 @@ User Interface I (S4-S6)
             android:layout_height="wrap_content" />
     </RelativeLayout>
   ´´´
+
   - ID :
+  - 
     ´´´
       android:id="@+id/img"
     ´´´
-    
+
     ´´´
       <TextView
             android:id="@+id/txtImg"
@@ -55,11 +57,32 @@ User Interface I (S4-S6)
             android:text="Medium Text"
             android:textAppearance="?android:attr/textAppearanceMedium" />
     ´´´
+    
   - Atributos :
+
     ´´´
         android:layout_width="300dp"
     ´´´
-  - xxx
+    
+  - En el código podemos invocar a los elementos XML de la siguiente manera :
+  
+    ´´´
+      @Override
+      protected void onCreate(Bundle savedInstanceState) {
+          super.onCreate(savedInstanceState);
+          setContentView(R.layout.activity_main);
+      }
+    ´´´
+    
+    ´´´
+     private ImageView img;
+     private Button btnImg;
+     private TextView txtImg;
+
+     img= (ImageView)findViewById(R.id.img);
+     btnImg= (Button)findViewById(R.id.butImg);
+     txtImg = (TextView)findViewById(R.id.txtImg);
+    ´´´
 References :
    - [https://developer.android.com/guide/topics/ui/index.html](https://developer.android.com/guide/topics/ui/index.html)
    - [https://developer.android.com/training/basics/firstapp/building-ui.html](https://developer.android.com/training/basics/firstapp/building-ui.html)
