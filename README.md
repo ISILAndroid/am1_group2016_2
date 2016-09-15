@@ -4,16 +4,17 @@ User Interface I (S4-S6)
 
   - Topics
   
-    * Interfaz de Usuario
+    * Overview
+    * User Interface
     
         - Layouts
 
-        - Widgets
+        - Input Controls (Widgets)
         
         - Material Design
         
-    * Eventos
-    * Ejercicios
+    * Input events
+    * Exercises
 
 - Group Activities
 
@@ -26,3 +27,4 @@ References :
    - [https://developer.android.com/guide/topics/ui/index.html](https://developer.android.com/guide/topics/ui/index.html)
    - [https://developer.android.com/training/basics/firstapp/building-ui.html](https://developer.android.com/training/basics/firstapp/building-ui.html)
    - [https://developer.android.com/design/index.html](https://developer.android.com/design/index.html)
+   - [https://developer.android.com/guide/topics/ui/declaring-layout.html](https://developer.android.com/guide/topics/ui/declaring-layout.html)
