@@ -24,7 +24,7 @@ User Interface I (S4-S6)
     
     * Group Activity #3 : Creating my first UI
     
-##
+## ---
 
 References :
    - [https://developer.android.com/guide/topics/ui/index.html](https://developer.android.com/guide/topics/ui/index.html)
