@@ -29,6 +29,7 @@ User Interface I (S4-S6)
 ## Overview
 
   - Estructura de un elemento XML :
+  
   ´´´
     <?xml version="1.0" encoding="utf-8"?>
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -44,7 +45,7 @@ User Interface I (S4-S6)
   ´´´
 
   - ID :
-  - 
+  
     ´´´
       android:id="@+id/img"
     ´´´
@@ -59,22 +60,22 @@ User Interface I (S4-S6)
     ´´´
     
   - Atributos :
-
+    
     ´´´
         android:layout_width="300dp"
     ´´´
     
   - En el código podemos invocar a los elementos XML de la siguiente manera :
   
-    ´´´
+  ´´´
       @Override
       protected void onCreate(Bundle savedInstanceState) {
           super.onCreate(savedInstanceState);
           setContentView(R.layout.activity_main);
       }
-    ´´´
+  ´´´
     
-    ´´´
+  ´´´
      private ImageView img;
      private Button btnImg;
      private TextView txtImg;
@@ -82,7 +83,8 @@ User Interface I (S4-S6)
      img= (ImageView)findViewById(R.id.img);
      btnImg= (Button)findViewById(R.id.butImg);
      txtImg = (TextView)findViewById(R.id.txtImg);
-    ´´´
+  ´´´
+  
 References :
    - [https://developer.android.com/guide/topics/ui/index.html](https://developer.android.com/guide/topics/ui/index.html)
    - [https://developer.android.com/training/basics/firstapp/building-ui.html](https://developer.android.com/training/basics/firstapp/building-ui.html)
