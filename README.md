@@ -88,9 +88,9 @@ User Interface I (S4-S6)
 
 ## User Interface
 
-### Layouts
-
-### Input Controls
+  ### Layouts
+  
+  ### Input Controls
 
 
 References :
