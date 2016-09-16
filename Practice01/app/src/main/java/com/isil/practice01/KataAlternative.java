@@ -12,11 +12,11 @@ public class KataAlternative {
         int  d;
         int  u;
 
-        if(number>99 && number <10000){
+        if(number>99 && number <1000){
             m= number/100;
             d= number/10-m*10;
             u=number -(m*100+d*10);
-            return " "+m+" "+d+" "+u;
+            return ""+m+" "+d+" "+u;
         }
         return INVALID;
     }

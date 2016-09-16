@@ -15,10 +15,6 @@ public class AgencyEntity  implements Serializable{
     private String lng;
     private boolean state;
 
-
-    public AgencyEntity() {
-    }
-
     public AgencyEntity(int id, String title, String address, String schedule, String lat, String lng, boolean state) {
         this.id = id;
         this.title = title;
@@ -27,6 +23,9 @@ public class AgencyEntity  implements Serializable{
         this.lat = lat;
         this.lng = lng;
         this.state = state;
+    }
+
+    public AgencyEntity() {
     }
 
     public int getId() {
