@@ -90,7 +90,22 @@ User Interface I (S4-S6)
 
   * Layouts
   
-  * Input Controls
+    - LinearLayout
+    
+    <img src="https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson4/images/linearlayout.png" height="480">
+
+    - RelativeLayout
+    
+    <img src="https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson4/images/relativelayout.png" height="480">
+         
+    - Listview, GridView , RecyclerView
+    
+    <img src="https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson4/images/listview.png" height="480">
+    
+    <img src="https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson4/images/gridview.png" height="480">
+  
+  * Exercices
+  
 
 
 References :
@@ -98,3 +113,5 @@ References :
    - [https://developer.android.com/training/basics/firstapp/building-ui.html](https://developer.android.com/training/basics/firstapp/building-ui.html)
    - [https://developer.android.com/design/index.html](https://developer.android.com/design/index.html)
    - [https://developer.android.com/guide/topics/ui/declaring-layout.html](https://developer.android.com/guide/topics/ui/declaring-layout.html)
+   - [http://android.inspired-ui.com/](http://android.inspired-ui.com/)
+   
