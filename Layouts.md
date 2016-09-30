@@ -115,8 +115,10 @@
       
   
   3. Shapes
-     - Nos permite dibujar formas básicas y usarlas por ejemplo para fondos y bordes redondeados.Estos elementos se encuentran en el folder drawable
+     - Nos permite dibujar formas básicas y usarlas por ejemplo para fondos y bordes redondeados.Estos elementos se encuentran en el          folder drawable.
+     
      Ejemplo , Cuadro con bordes redondeados
+     
      ```
         <?xml version="1.0" encoding="utf-8"?>
         <shape xmlns:android="http://schemas.android.com/apk/res/android"
