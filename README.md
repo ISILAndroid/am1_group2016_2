@@ -1,4 +1,4 @@
-# am1_group2016_2 Lesson 5
+# am1_group2016_2 Lesson 7
 
 User Interface I (S4-S6)
 
