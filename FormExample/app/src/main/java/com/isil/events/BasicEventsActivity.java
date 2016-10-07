@@ -34,10 +34,12 @@ public class BasicEventsActivity extends Activity implements View.OnClickListene
         ivi.setOnClickListener(this);
         flay.setOnClickListener(this);
         tvi.setOnClickListener(this);
+
     }
 
     @Override
     public void onClick(View v) {
+
         String message= null;
         switch (v.getId()){
             case R.id.btn:

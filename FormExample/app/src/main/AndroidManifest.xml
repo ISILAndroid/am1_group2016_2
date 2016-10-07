@@ -30,7 +30,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ItemsEventsActivity" />
-        <activity android:name=".KeyboardEventsActivity"></activity>
+        <activity android:name=".KeyboardEventsActivity" />
+        <activity android:name=".Main2Activity"></activity>
     </application>
 
 </manifest>

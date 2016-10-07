@@ -1,6 +1,8 @@
 package com.isil.events;
 
 import java.util.Calendar;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -57,8 +59,6 @@ public class FormularioActivity extends Activity {
 
         txtfecnac.setTag(null);
 		events();
-
-
 	}
 
 	private void events() {
@@ -75,9 +75,10 @@ public class FormularioActivity extends Activity {
         btnSignUp.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(validateForm())
+                if(validateFormError())
                 {
-
+                    Toast.makeText(FormularioActivity.this, "Enviar al servidor...",
+                            Toast.LENGTH_SHORT).show();
                 }else
                 {
                     Toast.makeText(FormularioActivity.this, "Revisar campos",
@@ -171,12 +172,19 @@ public class FormularioActivity extends Activity {
         if(email.isEmpty())return false;
         if(password.isEmpty())return false;
 
+        if(!isEmailValid(email)){
+            eteEmail.setError("E-mail inválido");
+            return false;
+        }
+
         //fecha nacimiento
         Object fnac= txtfecnac.getTag();
         if(fnac==null) return false;
 
         //localidad
-        if(localidad==null) return false;
+        if(localidad==null) {
+            return false;
+        }
 
         //genero
         Log.v("CONSOLE", "genero " + genero);
@@ -189,6 +197,26 @@ public class FormularioActivity extends Activity {
         return true;
     }
 
+    public boolean isEmailValid(String email) {
+        String regExpn =
+                "^(([\\w-]+\\.)+[\\w-]+|([a-zA-Z]{1}|[\\w-]{2,}))@"
+                        +"((([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\\.([0-1]?"
+                        +"[0-9]{1,2}|25[0-5]|2[0-4][0-9])\\."
+                        +"([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\\.([0-1]?"
+                        +"[0-9]{1,2}|25[0-5]|2[0-4][0-9])){1}|"
+                        +"([a-zA-Z]+[\\w-]+\\.)+[a-zA-Z]{2,4})$";
+
+        CharSequence inputStr = email;
+
+        Pattern pattern = Pattern.compile(regExpn, Pattern.CASE_INSENSITIVE);
+        Matcher matcher = pattern.matcher(inputStr);
+
+        if(matcher.matches())
+            return true;
+        else
+            return false;
+    }
+
 	
 	@Override
 	@Deprecated
@@ -197,6 +225,7 @@ public class FormularioActivity extends Activity {
 		switch (id) {
 		case 100:
 				final Calendar c=Calendar.getInstance();
+                c.add(Calendar.YEAR,1);
 				int year=c.get(Calendar.YEAR);
 				int month=c.get(Calendar.MONTH);
 				int day=c.get(Calendar.DAY_OF_MONTH);

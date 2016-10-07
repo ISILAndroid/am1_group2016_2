@@ -23,6 +23,7 @@ public class ItemsEventsActivity extends Activity {
     private void ui() {
         spLocation =(Spinner)findViewById(R.id.spLocation);
 
+
         spLocation.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {

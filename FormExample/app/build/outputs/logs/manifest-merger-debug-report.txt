@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\AM1\Lesson7\am1_group2016_2\FormExample\app\src\main\AndroidManifest.xml:2:1-36:12
+ADDED from C:\AM1\Lesson7\am1_group2016_2\FormExample\app\src\main\AndroidManifest.xml:2:1-37:12
 	package
 		ADDED from C:\AM1\Lesson7\am1_group2016_2\FormExample\app\src\main\AndroidManifest.xml:3:5-30
 		INJECTED from C:\AM1\Lesson7\am1_group2016_2\FormExample\app\src\main\AndroidManifest.xml
@@ -62,7 +62,7 @@ ADDED from C:\AM1\Lesson7\am1_group2016_2\FormExample\app\src\main\AndroidManife
 	android:name
 		ADDED from C:\AM1\Lesson7\am1_group2016_2\FormExample\app\src\main\AndroidManifest.xml:13:30-85
 application
-ADDED from C:\AM1\Lesson7\am1_group2016_2\FormExample\app\src\main\AndroidManifest.xml:15:5-34:19
+ADDED from C:\AM1\Lesson7\am1_group2016_2\FormExample\app\src\main\AndroidManifest.xml:15:5-35:19
 MERGED from [com.android.support:appcompat-v7:23.4.0] C:\AM1\Lesson7\am1_group2016_2\FormExample\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\AM1\Lesson7\am1_group2016_2\FormExample\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\AM1\Lesson7\am1_group2016_2\FormExample\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
@@ -122,6 +122,10 @@ ADDED from C:\AM1\Lesson7\am1_group2016_2\FormExample\app\src\main\AndroidManife
 	android:name
 		ADDED from C:\AM1\Lesson7\am1_group2016_2\FormExample\app\src\main\AndroidManifest.xml:32:19-54
 activity#com.isil.events.KeyboardEventsActivity
-ADDED from C:\AM1\Lesson7\am1_group2016_2\FormExample\app\src\main\AndroidManifest.xml:33:9-69
+ADDED from C:\AM1\Lesson7\am1_group2016_2\FormExample\app\src\main\AndroidManifest.xml:33:9-60
 	android:name
 		ADDED from C:\AM1\Lesson7\am1_group2016_2\FormExample\app\src\main\AndroidManifest.xml:33:19-57
+activity#com.isil.events.Main2Activity
+ADDED from C:\AM1\Lesson7\am1_group2016_2\FormExample\app\src\main\AndroidManifest.xml:34:9-60
+	android:name
+		ADDED from C:\AM1\Lesson7\am1_group2016_2\FormExample\app\src\main\AndroidManifest.xml:34:19-48

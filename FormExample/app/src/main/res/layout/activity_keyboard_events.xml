@@ -19,6 +19,7 @@
             android:ems="10"
             android:inputType="text"
             android:imeOptions="actionNext"
+            android:contentDescription="Ingresar Username"
             android:hint="Username" />
 
         <EditText

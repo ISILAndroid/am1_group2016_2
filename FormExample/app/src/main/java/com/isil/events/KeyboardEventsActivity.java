@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
@@ -37,17 +38,17 @@ public class KeyboardEventsActivity extends Activity {
         eteUsername.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
+                Log.v("CONSOLE", "beforeTextChanged "+s.toString());
             }
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-
+                Log.v("CONSOLE", "onTextChanged "+s.toString());
             }
 
             @Override
             public void afterTextChanged(Editable s) {
-
+                Log.v("CONSOLE", "afterTextChanged "+s.toString());
             }
         });
 
@@ -71,6 +72,11 @@ public class KeyboardEventsActivity extends Activity {
         etePassword.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+                if(event!=null){
+                    Log.v("CONSOLE ","keycode "+event.getKeyCode()+
+                    " actionId "+actionId);
+                }
+
                 if ((event != null && (event.getKeyCode() == KeyEvent.KEYCODE_ENTER)) || (actionId == EditorInfo.IME_ACTION_DONE)) {
                     send();
                 }

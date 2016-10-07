@@ -31,6 +31,7 @@
         </activity>
         <activity android:name="com.isil.events.ItemsEventsActivity" />
         <activity android:name="com.isil.events.KeyboardEventsActivity" />
+        <activity android:name="com.isil.events.Main2Activity" />
     </application>
 
 </manifest>

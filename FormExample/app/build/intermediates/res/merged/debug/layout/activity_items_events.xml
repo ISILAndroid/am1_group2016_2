@@ -33,7 +33,7 @@
             android:gravity="right"
             android:textSize="18sp"
             android:spinnerMode="dialog"
-            android:entries="@array/data"
+            android:entries="@array/dataDias"
             android:prompt="@string/seleccionar"
             />
 
