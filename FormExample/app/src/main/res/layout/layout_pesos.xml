@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="4dp">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -11,20 +12,27 @@
         <Button
             android:layout_width="0dp"
             android:layout_weight="0.2"
+            android:background="#ff00ff"
+            android:layout_marginRight="8dp"
+            android:text="20%"
             android:layout_height="match_parent" />
 
         <Button
             android:layout_width="0dp"
             android:layout_weight="0.8"
+            android:text="80%"
+            android:background="#ffff00"
             android:layout_height="match_parent" />
     </LinearLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.2">
+        android:layout_weight="0.2"
+        android:padding="8dp">
             <Button
                 android:layout_width="140dp"
+                android:background="#ff0000"
                 android:layout_height="match_parent"
                 android:layout_centerInParent="true"/>
     </RelativeLayout>
@@ -37,10 +45,13 @@
             <Button
                 android:layout_width="0dp"
                 android:layout_weight="0.6"
+                android:background="#00ffff"
+                android:layout_marginRight="8dp"
                 android:layout_height="match_parent" />
             <Button
                 android:layout_width="0dp"
                 android:layout_weight="0.4"
+                android:background="#fff00f"
                 android:layout_height="match_parent" />
     </LinearLayout>
 </LinearLayout>
