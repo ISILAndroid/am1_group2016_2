@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/eduardomedina/Documents/emedinaa/isil/am1/Lesson6/am1_group2016_2/ExampleForm/app/build/intermediates/res/merged/debug/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
+        "outputFile": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\res\\merged\\debug\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 109
                 },
                 "from": {
-                    "file": "/Users/eduardomedina/Documents/emedinaa/isil/am1/Lesson6/am1_group2016_2/ExampleForm/app/src/main/res/values-sw720dp-land/dimens.xml",
+                    "file": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\FormExample\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "outputFile": "/Users/eduardomedina/Documents/emedinaa/isil/am1/Lesson6/am1_group2016_2/FormExample/app/build/intermediates/res/merged/debug/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
+        "outputFile": "C:\\AM1\\Lesson7\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\res\\merged\\debug\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
         "map": [
             {
                 "to": {
@@ -35,7 +35,31 @@
                     "endOffset": 109
                 },
                 "from": {
-                    "file": "/Users/eduardomedina/Documents/emedinaa/isil/am1/Lesson6/am1_group2016_2/FormExample/app/src/main/res/values-sw720dp-land/dimens.xml",
+                    "file": "C:\\AM1\\Lesson7\\am1_group2016_2\\FormExample\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 205,
+                        "endColumn": 58,
+                        "endOffset": 259
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\ExampleForm\\app\\build\\intermediates\\res\\merged\\debug\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 58,
+                    "endOffset": 109
+                },
+                "from": {
+                    "file": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\ExampleForm\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,

@@ -1,10 +1,14 @@
 [
     {
-        "merged": "/Users/eduardomedina/Documents/emedinaa/isil/am1/Lesson6/am1_group2016_2/ExampleForm/app/build/intermediates/res/merged/debug/menu/formulario.xml",
-        "source": "/Users/eduardomedina/Documents/emedinaa/isil/am1/Lesson6/am1_group2016_2/ExampleForm/app/src/main/res/menu/formulario.xml"
+        "merged": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\res\\merged\\debug\\menu\\formulario.xml",
+        "source": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\FormExample\\app\\src\\main\\res\\menu\\formulario.xml"
     },
     {
-        "merged": "/Users/eduardomedina/Documents/emedinaa/isil/am1/Lesson6/am1_group2016_2/FormExample/app/build/intermediates/res/merged/debug/menu/formulario.xml",
-        "source": "/Users/eduardomedina/Documents/emedinaa/isil/am1/Lesson6/am1_group2016_2/FormExample/app/src/main/res/menu/formulario.xml"
+        "merged": "C:\\AM1\\Lesson7\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\res\\merged\\debug\\menu\\formulario.xml",
+        "source": "C:\\AM1\\Lesson7\\am1_group2016_2\\FormExample\\app\\src\\main\\res\\menu\\formulario.xml"
+    },
+    {
+        "merged": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\ExampleForm\\app\\build\\intermediates\\res\\merged\\debug\\menu\\formulario.xml",
+        "source": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\ExampleForm\\app\\src\\main\\res\\menu\\formulario.xml"
     }
 ]

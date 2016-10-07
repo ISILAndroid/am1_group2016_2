@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/eduardomedina/Documents/emedinaa/isil/am1/Lesson6/am1_group2016_2/ExampleForm/app/build/intermediates/res/merged/debug/values-xlarge-land-v4/values-xlarge-land-v4.xml",
+        "outputFile": "C:\\AM1\\Lesson7\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\res\\merged\\debug\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 114
                 },
                 "from": {
-                    "file": "/Users/eduardomedina/Documents/emedinaa/isil/am1/Lesson6/am1_group2016_2/ExampleForm/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-xlarge-land-v4/values-xlarge-land-v4.xml",
+                    "file": "C:\\AM1\\Lesson7\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "outputFile": "/Users/eduardomedina/Documents/emedinaa/isil/am1/Lesson6/am1_group2016_2/FormExample/app/build/intermediates/res/merged/debug/values-xlarge-land-v4/values-xlarge-land-v4.xml",
+        "outputFile": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\res\\merged\\debug\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
         "map": [
             {
                 "to": {
@@ -35,7 +35,31 @@
                     "endOffset": 114
                 },
                 "from": {
-                    "file": "/Users/eduardomedina/Documents/emedinaa/isil/am1/Lesson6/am1_group2016_2/FormExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-xlarge-land-v4/values-xlarge-land-v4.xml",
+                    "file": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 63,
+                        "endOffset": 114
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\ExampleForm\\app\\build\\intermediates\\res\\merged\\debug\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\ExampleForm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
