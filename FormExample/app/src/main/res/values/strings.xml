@@ -7,4 +7,12 @@
     <string name="seleccionar">Seleccionar</string>
     <string name="sign_up">Sign Up</string>
 
+    <string name="registro_usuario">Registro de Usuario</string>
+    <string name="nombre">nombre</string>
+    <string name="email">email</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Password</string>
+    <string name="cpassword">Confirmar Password</string>
+    <string name="registro">Registro</string>
+
 </resources>

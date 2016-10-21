@@ -596,6 +596,10 @@
         "source": "C:\\AM1\\Parcial\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
+        "merged": "C:\\AM1\\Parcial\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_form.xml",
+        "source": "C:\\AM1\\Parcial\\am1_group2016_2\\FormExample\\app\\src\\main\\res\\layout\\activity_form.xml"
+    },
+    {
         "merged": "C:\\AM1\\Parcial\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "C:\\AM1\\Parcial\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },

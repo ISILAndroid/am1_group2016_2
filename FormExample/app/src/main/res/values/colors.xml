@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="skye">#0090D7</color>
-    <color name="white">#FFFFFF</color>
+
+    <color name="morado">#D700B0</color>
+    <color name="red">#D70015</color>
+    <color name="blue">#0020D7</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#00D719</color>
 </resources>
