@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context="com.isil.list.MainActivity">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SimpleLis"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/btnSimpleList"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simple Grid"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/btnSimpleGrid"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CustomList"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/btnCustomList"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ViewHolder Pattern"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/btnViewHolder"/>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ListExamples</string>
+    <string name="action_settings">ListExamples</string>
+    <string name="hello_world">ListExamples</string>
+    <string name="seleccionar">Seleccionar</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="title_activity_simple_list">SimpleListActivity</string>
+
+</resources>

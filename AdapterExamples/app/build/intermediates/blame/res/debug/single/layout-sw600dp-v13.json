@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\ExampleForm\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\ExampleForm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\AM1\\Lesson8\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "C:\\AM1\\Lesson8\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\AM1\\Lesson8\\am1_group2016_2\\AdapterExamples\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "C:\\AM1\\Lesson8\\am1_group2016_2\\AdapterExamples\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\AM1\\Lesson7\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "C:\\AM1\\Lesson7\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    }
+]
