@@ -96,6 +96,7 @@ User Interface II
  4. Events
     
     - setOnItemClickListener
+    
         ```
            lviCheeses.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                @Override
