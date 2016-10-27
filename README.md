@@ -37,6 +37,7 @@ References :
    - [https://developer.android.com/guide/topics/ui/controls/spinner.html](https://developer.android.com/guide/topics/ui/controls/spinner.html)
    - [https://developer.android.com/guide/topics/ui/declaring-layout.html](https://developer.android.com/guide/topics/ui/declaring-layout.html)
    - [https://developer.android.com/training/improving-layouts/smooth-scrolling.html](https://developer.android.com/training/improving-layouts/smooth-scrolling.html)
+   - [https://sriramramani.wordpress.com/2012/07/25/infamous-viewholder-pattern/](https://sriramramani.wordpress.com/2012/07/25/infamous-viewholder-pattern/)
    
    
    
