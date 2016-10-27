@@ -9,8 +9,8 @@ User Interface II
    
  1. ListView, GridView,RecyclerView  and Simple List
     - ListView and GridView
-      ![](https://developer.android.com/images/ui/listview.png)
-      ![](https://developer.android.com/images/ui/gridview.png)
+    
+      ![](https://developer.android.com/images/ui/listview.png) ![](https://developer.android.com/images/ui/gridview.png)
             
     - Components
         * DataSource
