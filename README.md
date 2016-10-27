@@ -94,6 +94,18 @@ User Interface II
     ```
     
  4. Events
+    
+    - setOnItemClickListener
+        ```
+           lviCheeses.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+               @Override
+               public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                    String value= String.valueOf(adapterView.getAdapter().getItem(position));
+                    showItem(value);
+                }
+           });
+        ```
+        
  
 References :
 
