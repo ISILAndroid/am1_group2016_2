@@ -13,6 +13,7 @@ User Interface II
       ![](https://developer.android.com/images/ui/listview.png) ![](https://developer.android.com/images/ui/gridview.png)
             
     - Structure
+    
       BaseAdapter [link](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson8/ADAPTER.md)
       
     - Components
