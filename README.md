@@ -43,7 +43,19 @@ User Interface II
         * 3. Create row.xml
         * 4. Create adapter
         * 5. Set Adapter to View (ListView, GridView)
-    
+        
+    - Custom Adapter
+        
+        * Row (xml) [https://gist.github.com/emedinaa/b84637ec96f1f6d13a9e73f43e57c0f0](https://gist.github.com/emedinaa/b84637ec96f1f6d13a9e73f43e57c0f0)
+        
+        * Data Source [https://gist.github.com/emedinaa/386107dd21f498aa1b328484e836a5a4](https://gist.github.com/emedinaa/386107dd21f498aa1b328484e836a5a4)
+        
+        * Adapter [https://gist.github.com/emedinaa/bed1a54b1ec60e60d940db5c3ccef90c](https://gist.github.com/emedinaa/bed1a54b1ec60e60d940db5c3ccef90c)
+        
+        * View [https://gist.github.com/emedinaa/9a16a352e8fddbde21d3436ea0b4c124](https://gist.github.com/emedinaa/9a16a352e8fddbde21d3436ea0b4c124)
+        
+        * Activity [https://gist.github.com/emedinaa/de335790a356cf51ebc9cf5b229f741d](https://gist.github.com/emedinaa/de335790a356cf51ebc9cf5b229f741d)
+        
  3. ViewHolder Pattern
  
     ```
