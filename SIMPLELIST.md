@@ -29,7 +29,7 @@
 
   ```
   
-  2. Row (XML)
+2. Row (XML)
   
   ```
       <?xml version="1.0" encoding="utf-8"?>
@@ -47,7 +47,7 @@
   
   ```
  
- 3. View (XML)
+3. View (XML)
  
  ```
       <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -67,14 +67,14 @@
 
  ```
  
- 4. Adapter 
+4. Adapter 
  
   ```
     new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, mStrings)
   ```
   
-  5. View (Activity)
+5. View (Activity)
   
   ```
       package com.isil.simplelist;
