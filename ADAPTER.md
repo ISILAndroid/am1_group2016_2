@@ -1,6 +1,6 @@
-### Adapter 
+## Adapter 
 
-##Example of BaseAdapter 
+# Example of BaseAdapter 
 
 ```
 package com.isil.simplelist.adapter;
