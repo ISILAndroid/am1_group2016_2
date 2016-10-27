@@ -22,9 +22,16 @@ User Interface II
     - Simple list
  
  2. Adapter & Custom Adapters
-    - Cursor Adapter
-    - Array Adapter
-    - Base Adapter
+    - Adapters
+        * Cursor Adapter
+        * Array Adapter
+        * Base Adapter
+    - Steps 
+        * 1. Create model (Entity Class)
+        * 2. Get Data source (List , ArrayList)
+        * 3. Create row.xml
+        * 4. Create adapter
+        * 5. Set Adapter to View (ListView, GridView)
     
  3. ViewHolder Pattern
  
