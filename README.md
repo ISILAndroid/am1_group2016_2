@@ -22,6 +22,7 @@ User Interface II
         ![](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson8/Android%20Adapter.png)
         
     - Simple list
+    
         Link [https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson8/SIMPLELIST.md](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson8/SIMPLELIST.md)
  
  2. Adapter & Custom Adapters
