@@ -8,11 +8,13 @@ User Interface II
     - Examples
    
  1. ListView, GridView,RecyclerView  and Simple List
+ 
     - ListView and GridView
     
       ![](https://developer.android.com/images/ui/listview.png) ![](https://developer.android.com/images/ui/gridview.png)
             
     - Components
+    
         * DataSource
         * Adapter
         * View
@@ -22,15 +24,18 @@ User Interface II
     - Simple list
  
  2. Adapter & Custom Adapters
+ 
     - Adapters
         * Cursor Adapter
         * Array Adapter
         * Base Adapter
             
     - Structure
+    
         BaseAdapter [link](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson8/ADAPTER.md)
         
     - Steps 
+    
         * 1. Create model (Entity Class)
         * 2. Get Data source (List , ArrayList)
         * 3. Create row.xml
