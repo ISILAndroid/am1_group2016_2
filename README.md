@@ -1,6 +1,7 @@
 # am1_group2016_2 Lesson 8
 
 User Interface II
+
     - Adapter y custom Adapters
     - ListView, GridView y RecyclerView
     - Patrón Holder
