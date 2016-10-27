@@ -1,6 +1,6 @@
-## Adapter 
+# Adapter 
 
-# Example of BaseAdapter 
+## Example of BaseAdapter 
 
 ```
 package com.isil.simplelist.adapter;
@@ -64,6 +64,7 @@ public class SimpleListAdapter extends BaseAdapter {
         return data.length;
     }
    ```
+   
  2. GETITEM() : Get Object by position
    ```
     @Override
@@ -71,6 +72,7 @@ public class SimpleListAdapter extends BaseAdapter {
           return data[position];
       }
    ```
+   
  3. GETVIEW() : Get a View that displays the data at the specified position in the data set
  ```
     @Override
@@ -86,3 +88,4 @@ public class SimpleListAdapter extends BaseAdapter {
         return view;
     }
  ```
+ 
