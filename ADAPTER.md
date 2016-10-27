@@ -57,23 +57,21 @@ public class SimpleListAdapter extends BaseAdapter {
 }
 
 ```
- 1. GETCOUNT() : total elements of Data
+ 1. GETCOUNT() : Return the total elements
    ```
      @Override
     public int getCount() {
         return data.length;
     }
    ```
- 
- 2. GETITEM() : get Object by position
+ 2. GETITEM() : Get Object by position
    ```
     @Override
       public Object getItem(int position) {
           return data[position];
       }
    ```
-   
- 3. GETVIEW() : 
+ 3. GETVIEW() : Get a View that displays the data at the specified position in the data set
  ```
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
