@@ -12,10 +12,6 @@ User Interface II
     
       ![](https://developer.android.com/images/ui/listview.png) ![](https://developer.android.com/images/ui/gridview.png)
             
-    - Structure
-    
-      BaseAdapter [link](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson8/ADAPTER.md)
-      
     - Components
         * DataSource
         * Adapter
@@ -30,6 +26,10 @@ User Interface II
         * Cursor Adapter
         * Array Adapter
         * Base Adapter
+            
+    - Structure
+        BaseAdapter [link](https://github.com/ISILAndroid/am1_group2016_2/blob/Lesson8/ADAPTER.md)
+        
     - Steps 
         * 1. Create model (Entity Class)
         * 2. Get Data source (List , ArrayList)
