@@ -28,6 +28,41 @@ User Interface II
     
  3. ViewHolder Pattern
  
+    ```
+        class ViewHolder {
+            ImageView icon;
+            TextView title;
+            TextView subtitle;
+        }
+    ```
+    ```
+        // Inside the adapter
+        public void getView(int position, View convertView, ViewGroup parent) {
+            // if convertView is null, the view is newly inflated.
+            // else, re-assign new values.
+            ViewHolder holder;
+            if (convertView == null) {
+                convertView = LayoutInflater.from(context).inflate(R.layout.row, null);
+
+                // Set up the ViewHolder.
+                holder = new ViewHolder();
+                holder.icon = (ImageView) findViewById(R.id.icon);
+                holder.title = (TextView) findViewById(R.id.title);
+                holder.subtitle = (TextView) findViewById(R.id.subtitle);
+
+                // Store the holder with the view.
+                convertView.setTag(holder);
+            } else {
+                holder = (ViewHolder) convertView.getTag();
+            }
+
+            // Assign values
+            holder.icon.setImageDrawable(some_image);
+            holder.title.setText(some_text);
+            holder.subtitle.setText(some_text);
+        }
+    ```
+    
  4. Events
  
 References :
