@@ -2,18 +2,40 @@
 
 User Interface II
 
-    - Adapter y custom Adapters
-    - ListView, GridView y RecyclerView
-    - Patrón Holder
-    - Ejercicios
+    - ListView, GridView,RecyclerView  and Simple List
+    - Adapter and custom Adapters
+    - ViewHolder Pattern
+    - Examples
    
-
+ 1. ListView, GridView,RecyclerView  and Simple List
+    - ListView and GridView
+      ![](https://developer.android.com/images/ui/listview.png)
+      ![](https://developer.android.com/images/ui/gridview.png)
+            
+    - Components
+        * DataSource
+        * Adapter
+        * View
+        
+    - Simple list
+ 
+ 2. Adapter & Custom Adapters
+    - Cursor Adapter
+    - Array Adapter
+    - Base Adapter
+    
+ 3. ViewHolder Pattern
+ 
+ 4. Events
+ 
 References :
 
    - [https://developer.android.com/guide/topics/ui/layout/listview.html](https://developer.android.com/guide/topics/ui/layout/listview.html)
    - [https://developer.android.com/guide/topics/ui/layout/gridview.html](https://developer.android.com/guide/topics/ui/layout/gridview.html)
    - [https://developer.android.com/guide/topics/ui/controls/spinner.html](https://developer.android.com/guide/topics/ui/controls/spinner.html)
    - [https://developer.android.com/guide/topics/ui/declaring-layout.html](https://developer.android.com/guide/topics/ui/declaring-layout.html)
+   - [https://developer.android.com/training/improving-layouts/smooth-scrolling.html](https://developer.android.com/training/improving-layouts/smooth-scrolling.html)
+   
    
    
    
