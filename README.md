@@ -12,7 +12,13 @@ User Interface II
     - ListView and GridView
     
       ![](https://developer.android.com/images/ui/listview.png) ![](https://developer.android.com/images/ui/gridview.png)
-            
+          
+    - Design 
+    
+        * Galleries [http://android.inspired-ui.com/tagged/galleries](http://android.inspired-ui.com/tagged/galleries)
+        
+        * Lists [http://android.inspired-ui.com/tagged/lists](http://android.inspired-ui.com/tagged/lists)
+        
     - Components
     
         * DataSource
