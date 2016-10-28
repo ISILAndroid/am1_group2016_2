@@ -10,7 +10,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="SimpleLis"
+            android:text="SimpleList"
             android:layout_marginBottom="5dp"
             android:id="@+id/btnSimpleList"/>
 

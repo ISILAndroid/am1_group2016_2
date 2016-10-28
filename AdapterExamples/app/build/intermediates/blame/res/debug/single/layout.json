@@ -688,6 +688,10 @@
         "source": "C:\\AM1\\Lesson8\\am1_group2016_2\\AdapterExamples\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_lines.xml"
     },
     {
+        "merged": "C:\\AM1\\Lesson8\\am1_group2016_2\\AdapterExamples\\app\\build\\intermediates\\res\\merged\\debug\\layout\\my_row.xml",
+        "source": "C:\\AM1\\Lesson8\\am1_group2016_2\\AdapterExamples\\app\\src\\main\\res\\layout\\my_row.xml"
+    },
+    {
         "merged": "C:\\AM1\\Lesson8\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
         "source": "C:\\AM1\\Lesson8\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_item_separator.xml"
     },

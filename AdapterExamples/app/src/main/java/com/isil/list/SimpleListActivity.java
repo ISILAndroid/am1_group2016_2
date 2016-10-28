@@ -9,12 +9,18 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.isil.list.storage.Cheeses;
+import com.isil.list.storage.Shakespeare;
 
 
 public class SimpleListActivity extends Activity {
 
 
     private String[] mStrings = Cheeses.sCheeseStrings;
+    private String[] mTitles= Shakespeare.TITLES;
+    private String[] mDialogs= Shakespeare.DIALOGUE;
+    private String[] mDays = {"Lunes", "Martes","Miercoles","Jueves","Viernes",
+            "Sábado", "Domingo"};
+
     private ListView lviCheeses;
 
     @Override
@@ -23,8 +29,9 @@ public class SimpleListActivity extends Activity {
         setContentView(R.layout.activity_simple_list);
 
         lviCheeses=(ListView)findViewById(R.id.lviCheeses);
+
         lviCheeses.setAdapter(new ArrayAdapter<String>(this,
-                android.R.layout.simple_list_item_1, mStrings));
+                R.layout.my_row, mDays));
         lviCheeses.setTextFilterEnabled(true);
 
         //events
