@@ -44,12 +44,12 @@
         "source": "C:\\AM1\\Lesson7\\am1_group2016_2\\FormExample\\app\\src\\main\\res\\layout\\activity_items_events.xml"
     },
     {
-        "merged": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\ExampleForm\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\ExampleForm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\ExampleForm\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\ExampleForm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\ExampleForm\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\ExampleForm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
         "merged": "C:\\AM1\\Lesson7\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
@@ -60,36 +60,36 @@
         "source": "C:\\AM1\\Lesson8\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "C:\\AM1\\Lesson8\\am1_group2016_2\\AdapterExamples\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "C:\\AM1\\Lesson8\\am1_group2016_2\\AdapterExamples\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_bottom_sheet_dialog.xml"
-    },
-    {
         "merged": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\ExampleForm\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\ExampleForm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\AM1\\Lesson8\\am1_group2016_2\\AdapterExamples\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\AM1\\Lesson8\\am1_group2016_2\\AdapterExamples\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
         "merged": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\ExampleForm\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
         "source": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\ExampleForm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "C:\\AM1\\Lesson8\\am1_group2016_2\\AdapterExamples\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\AM1\\Lesson8\\am1_group2016_2\\AdapterExamples\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
         "merged": "C:\\AM1\\Lesson8\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
         "source": "C:\\AM1\\Lesson8\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\AM1\\Lesson8\\am1_group2016_2\\AdapterExamples\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\AM1\\Lesson8\\am1_group2016_2\\AdapterExamples\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\ExampleForm\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\ExampleForm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\ExampleForm\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\ExampleForm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_item_separator.xml"
-    },
-    {
         "merged": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\ExampleForm\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\ExampleForm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
         "merged": "C:\\AM1\\Lesson8\\am1_group2016_2\\AdapterExamples\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
@@ -286,6 +286,10 @@
     {
         "merged": "C:\\AM1\\Lesson7\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "C:\\AM1\\Lesson7\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\AM1\\Lesson8\\am1_group2016_2\\AdapterExamples\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_movie.xml",
+        "source": "C:\\AM1\\Lesson8\\am1_group2016_2\\AdapterExamples\\app\\src\\main\\res\\layout\\row_movie.xml"
     },
     {
         "merged": "C:\\Users\\eduardomedina\\Documents\\emedinaa\\isil\\am1\\Lesson6\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",

@@ -31,14 +31,15 @@ public class SimpleListActivity extends Activity {
         lviCheeses=(ListView)findViewById(R.id.lviCheeses);
 
         lviCheeses.setAdapter(new ArrayAdapter<String>(this,
-                R.layout.my_row, mDays));
+                R.layout.my_row, mStrings));
         lviCheeses.setTextFilterEnabled(true);
 
         //events
         lviCheeses.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-                String value= String.valueOf(adapterView.getAdapter().getItem(position));
+                String value= String.valueOf(adapterView.getAdapter().getItem(position))+
+                        " " +String.valueOf(position);
                 showItem(value);
             }
         });
@@ -46,7 +47,7 @@ public class SimpleListActivity extends Activity {
 
     private void showItem(String value) {
 
-        Toast.makeText(this,"item "+value,Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"item "+value,Toast.LENGTH_SHORT).show();
     }
 
 }
