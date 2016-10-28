@@ -34,4 +34,11 @@
             android:text="ViewHolder Pattern"
             android:layout_marginBottom="5dp"
             android:id="@+id/btnViewHolder"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Movie Grid"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/btnMoviegrid"/>
 </LinearLayout>

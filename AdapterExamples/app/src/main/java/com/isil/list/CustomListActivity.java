@@ -2,7 +2,10 @@ package com.isil.list;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.isil.list.adapter.MovieAdapter;
 import com.isil.list.adapter.MovieObjAdapter;
@@ -42,5 +45,20 @@ public class CustomListActivity extends Activity {
                 data);
 
         lviCheeses.setAdapter(movieObjAdapter);
+
+        lviCheeses.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
+                MovieEntity movieEntity =(MovieEntity) adapterView.getAdapter().getItem(position);
+                String message= movieEntity.getTitle()+ " "+movieEntity.isCartelera();
+                //String.format("title %s cartela %s ",movieEntity.getTitle(),String.valueOf(movieEntity.isCartelera()) );
+                showItem(message);
+            }
+        });
+    }
+
+    private void showItem(String value) {
+
+        Toast.makeText(this,"item "+value,Toast.LENGTH_SHORT).show();
     }
 }

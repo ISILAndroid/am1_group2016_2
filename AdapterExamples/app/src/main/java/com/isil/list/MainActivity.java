@@ -44,6 +44,17 @@ public class MainActivity extends Activity {
 
             }
         });
+
+        findViewById(R.id.btnMoviegrid).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                gotoMoviewGrid();
+            }
+        });
+    }
+
+    private void gotoMoviewGrid() {
+        startActivity(new Intent(this,MovieGridActivity.class));
     }
 
     private void gotoSimpleList() {

@@ -9,7 +9,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
-        <activity android:name="com.isil.list.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,10 +17,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.isil.list.SimpleListActivity"
+            android:name=".SimpleListActivity"
             android:label="@string/title_activity_simple_list" />
-        <activity android:name="com.isil.list.SimpleGridActivity" />
-        <activity android:name="com.isil.list.CustomListActivity"></activity>
+        <activity android:name=".SimpleGridActivity" />
+        <activity android:name=".CustomListActivity" />
+        <activity android:name=".MovieGridActivity"></activity>
     </application>
 
 </manifest>

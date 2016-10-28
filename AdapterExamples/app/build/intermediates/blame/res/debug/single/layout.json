@@ -136,6 +136,10 @@
         "source": "C:\\AM1\\Lesson8\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
+        "merged": "C:\\AM1\\Lesson8\\am1_group2016_2\\AdapterExamples\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_movie_grid.xml",
+        "source": "C:\\AM1\\Lesson8\\am1_group2016_2\\AdapterExamples\\app\\src\\main\\res\\layout\\activity_movie_grid.xml"
+    },
+    {
         "merged": "C:\\AM1\\Lesson7\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\AM1\\Lesson7\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
@@ -462,6 +466,10 @@
     {
         "merged": "C:\\AM1\\Lesson8\\am1_group2016_2\\AdapterExamples\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
         "source": "C:\\AM1\\Lesson8\\am1_group2016_2\\AdapterExamples\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\AM1\\Lesson8\\am1_group2016_2\\AdapterExamples\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_movie_grid.xml",
+        "source": "C:\\AM1\\Lesson8\\am1_group2016_2\\AdapterExamples\\app\\src\\main\\res\\layout\\row_movie_grid.xml"
     },
     {
         "merged": "C:\\AM1\\Lesson8\\am1_group2016_2\\FormExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",

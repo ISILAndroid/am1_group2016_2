@@ -25,6 +25,7 @@
             android:label="@string/title_activity_simple_list" />
         <activity android:name="com.isil.list.SimpleGridActivity" />
         <activity android:name="com.isil.list.CustomListActivity" />
+        <activity android:name="com.isil.list.MovieGridActivity" />
     </application>
 
 </manifest>
