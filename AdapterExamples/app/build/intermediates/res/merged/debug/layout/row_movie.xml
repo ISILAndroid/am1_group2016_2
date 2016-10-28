@@ -7,6 +7,8 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:padding="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
         android:text="Doctor Strange"
         android:id="@+id/tviName"/>
     <ImageView
@@ -16,5 +18,14 @@
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:src="@drawable/ic_movie"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_favorite"
+        android:visibility="gone"
+        android:id="@+id/iviCartelera"/>
 
 </RelativeLayout>

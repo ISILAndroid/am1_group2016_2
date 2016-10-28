@@ -592,9 +592,10 @@ int drawable abc_textfield_search_default_mtrl_alpha 0x7f020049
 int drawable abc_textfield_search_material 0x7f02004a
 int drawable design_fab_background 0x7f02004b
 int drawable design_snackbar_background 0x7f02004c
-int drawable ic_launcher 0x7f02004d
-int drawable ic_movie 0x7f02004e
-int drawable notification_template_icon_bg 0x7f02004f
+int drawable ic_favorite 0x7f02004d
+int drawable ic_launcher 0x7f02004e
+int drawable ic_movie 0x7f02004f
+int drawable notification_template_icon_bg 0x7f020050
 int id action0 0x7f0c008d
 int id action_bar 0x7f0c005a
 int id action_bar_activity_content 0x7f0c0000
@@ -610,7 +611,7 @@ int id action_menu_presenter 0x7f0c0003
 int id action_mode_bar 0x7f0c0057
 int id action_mode_bar_stub 0x7f0c0056
 int id action_mode_close_button 0x7f0c003c
-int id action_settings 0x7f0c009c
+int id action_settings 0x7f0c009d
 int id activity_chooser_view_content 0x7f0c003d
 int id alertTitle 0x7f0c0049
 int id always 0x7f0c0033
@@ -671,6 +672,7 @@ int id imageView1 0x7f0c006f
 int id info 0x7f0c0098
 int id item_touch_helper_previous_elevation 0x7f0c0005
 int id ivi 0x7f0c006a
+int id iviCartelera 0x7f0c009b
 int id lblfecnac 0x7f0c0076
 int id left 0x7f0c0023
 int id line1 0x7f0c0092
@@ -746,7 +748,7 @@ int id topPanel 0x7f0c0047
 int id touch_outside 0x7f0c0084
 int id tvi 0x7f0c006c
 int id tviName 0x7f0c009a
-int id tviTitle 0x7f0c009b
+int id tviTitle 0x7f0c009c
 int id up 0x7f0c0009
 int id useLogo 0x7f0c0014
 int id view_offset_helper 0x7f0c000a

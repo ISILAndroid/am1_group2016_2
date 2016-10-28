@@ -1,6 +1,7 @@
 package com.isil.list.adapter;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -47,6 +48,12 @@ public class MovieAdapter extends BaseAdapter{
         }
         TextView tviTitle=(TextView)view.findViewById(R.id.tviName);
         tviTitle.setText(movies[position]);
+        if(position==0){
+            tviTitle.setTextColor(Color.GREEN);
+        }else{
+            tviTitle.setTextColor(Color.BLACK);
+        }
+
         return view;
     }
 }
