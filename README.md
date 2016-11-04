@@ -73,6 +73,21 @@ User Interface II
         finish();
      ```
    Si no utilizo el método  "finish()" cuando navego de SplashActivty(1) a LoginActivity(2), se  guarda en el historial de navegación (1) -> (2) y si uso el botón back  de Android en LoginActivity voy a poder regresar de (2) -> (1) . Luego nos quedamos en el LoginActivity como pantalla principal y si le damos back nuevamente se cierra la APP. Recomiendo siempre tener solo una Activity activa y controlar nosotros por programación todo el flujo de la APP.
+   
+    - Bundle
+    
+    Cuando necesitemos pasar información de un Activity a otra , usaremos los Bundle donde podremos pasar parámetros primitivos como strigns, booleans y números . Tambien podemos enviar objetos Serializables o Parcelables.
+    
+    ```
+        Bundle bundle= new Bundle();
+        bundle.putInt("NUMBER", 100);
+        bundle.putString("NAME", "Eduardo");
+        //Actividad inicial, Siguiente Actividad
+        Intent intent = new Intent(SplashActivity.this,
+                LoginActivity.class);
+        intent.putExtras(bundle);
+        startActivity(intent);
+    ```
         
 References :
 
