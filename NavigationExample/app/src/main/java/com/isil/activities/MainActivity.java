@@ -93,6 +93,9 @@ public class MainActivity extends Activity {
 
 
     private void closeSesion() {
+        Intent intent= new Intent(MainActivity.this,
+                LoginActivity.class);
+        startActivity(intent);
         finish();
     }
 
@@ -104,5 +107,6 @@ public class MainActivity extends Activity {
     @Override
     public void onBackPressed() {
         //super.onBackPressed();
+        closeSesion();
     }
 }

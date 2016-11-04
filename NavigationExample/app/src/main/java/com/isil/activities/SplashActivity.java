@@ -22,7 +22,9 @@ public class SplashActivity extends Activity {
             @Override
             public void run() {
                 //Actividad inicial, Siguiente Actividad
-                Intent intent = new Intent(SplashActivity.this, LoginActivity.class);
+                Intent intent = new Intent(SplashActivity.this,
+                        LoginActivity.class);
+                //Intent intent = new Intent(SplashActivity.this, MainActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -32,9 +34,5 @@ public class SplashActivity extends Activity {
         timer.schedule(task, SPLASH_SCREEN_DELAY);
     }
 
-    @Override
-    public void onBackPressed() {
-        //super.onBackPressed();
-    }
 
 }
