@@ -7,6 +7,54 @@ User Interface II
     - Application
     
  2. Implementing Navigation
+    - Android Manifest
+    
+    En el archivo AndroidManifest.xml es donde se registrán todas nuestras vistas y donde seleccionamos cual es la primera Activity que se ejecuta .
+    ```
+        <?xml version="1.0" encoding="utf-8"?>
+        <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+            package="com.isil.activities" >
+
+            <application
+                android:name=".NoteApplication"
+                android:allowBackup="true"
+                android:icon="@mipmap/ic_launcher"
+                android:theme="@style/AppTheme" >
+                <activity
+                    android:name=".MainActivity"
+                    android:screenOrientation="portrait">
+                </activity>
+
+                <activity android:name=".LoginActivity"
+                    android:screenOrientation="portrait">
+
+
+                </activity>
+
+                <activity
+                    android:name=".AddNoteActivity"
+                    android:screenOrientation="portrait">
+                </activity>
+                <activity
+                    android:name=".NoteDetailActivity"
+                    android:screenOrientation="portrait">
+                </activity>
+
+                <activity android:name=".SplashActivity"
+                    android:screenOrientation="portrait">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN" />
+                        <category android:name="android.intent.category.LAUNCHER" />
+                    </intent-filter>
+                </activity>
+
+
+            </application>
+
+        </manifest>
+
+    ```
+    
     - Intent
     
     Los intent nos permiten navegar entre pantallas (Activity) y tambien poder pasar información entre ellas.
