@@ -13,7 +13,11 @@ import android.widget.TextView;
 import com.isil.activities.R;
 import com.isil.activities.model.NoteEntity;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -58,14 +62,17 @@ public class NoteAdapter extends BaseAdapter implements Filterable {
             ViewHolder holder = new ViewHolder();
             holder.tviName = (TextView)v.findViewById(R.id.tviName);
             holder.iviNote = (ImageView) v.findViewById(R.id.iviNote);
+            holder.tviDate = (TextView) v.findViewById(R.id.tviDate);
             v.setTag(holder);
         }
         NoteEntity entry = lsNoteEntities.get(position);
         if(entry != null)
         {
             ViewHolder holder = (ViewHolder)v.getTag();
+
             holder.tviName.setText(entry.getName());
             holder.iviNote.setImageResource(entry.getIcon());
+            holder.tviDate.setText(entry.getAddedDate());
         }
 
         return v;
@@ -128,5 +135,6 @@ public class NoteAdapter extends BaseAdapter implements Filterable {
     {
         ImageView iviNote;
         TextView tviName;
+        TextView tviDate;
     }
 }

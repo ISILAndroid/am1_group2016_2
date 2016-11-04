@@ -88,4 +88,5 @@ public class NoteEntity  implements Serializable{
     public void setIcon(int icon) {
         this.icon = icon;
     }
+
 }
