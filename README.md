@@ -8,7 +8,8 @@ User Interface II
     
  2. Implementing Navigation
     - Intent
-    Los intent no permiten navegar entre pantallas (Activity) y tambien poder pasar información entre ellas.
+    
+    Los intent nox permiten navegar entre pantallas (Activity) y tambien poder pasar información entre ellas.
     ```
        //Actividad inicial, Siguiente Actividad
         Intent intent = new Intent(SplashActivity.this,LoginActivity.class);
