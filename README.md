@@ -9,7 +9,7 @@ User Interface II
  2. Implementing Navigation
     - Intent
     
-    Los intent nox permiten navegar entre pantallas (Activity) y tambien poder pasar información entre ellas.
+    Los intent nos permiten navegar entre pantallas (Activity) y tambien poder pasar información entre ellas.
     ```
        //Actividad inicial, Siguiente Actividad
         Intent intent = new Intent(SplashActivity.this,LoginActivity.class);
@@ -23,7 +23,8 @@ User Interface II
         startActivity(intent);
         finish();
      ```
-   
+   Si no utilizo el método  "finish()" cuando navego de SplashActivty(1) a LoginActivity(2), se  guarda en el historial de navegación (1) -> (2) y si uso el botón back  de Android en LoginActivity voy a poder regresar de (2) -> (1) . Luego nos quedamos en el LoginActivity como pantalla principal y si le damos back nuevamente se cierra la APP. Recomiendo siempre tener solo una Activity activa y controlar nosotros por programación todo el flujo de la APP.
+        
 References :
 
    - [https://developer.android.com/training/basics/firstapp/starting-activity.html](https://developer.android.com/training/basics/firstapp/starting-activity.html)
