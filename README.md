@@ -76,12 +76,26 @@ User Interface II
    
     - Bundle
     
-    Cuando necesitemos enviar información de un Activity a otra , usaremos los Bundle donde podremos pasar parámetros primitivos como strigns, booleans y números . Tambien podemos enviar objetos Serializables o Parcelables.
+    Cuando necesitemos enviar información de un Activity a otra , usaremos los Bundle donde nos permitirá enviar parámetros primitivos como strigns, booleans, chars, bytes y números . Tambien podemos enviar objetos Serializables o Parcelables.
     
     ```
         Bundle bundle= new Bundle();
         bundle.putInt("NUMBER", 100);
         bundle.putString("NAME", "Eduardo");
+        //Actividad inicial, Siguiente Actividad
+        Intent intent = new Intent(SplashActivity.this,
+                LoginActivity.class);
+        intent.putExtras(bundle);
+        startActivity(intent);
+    ```
+    
+     ```
+        NoteEntity noteEntity= new NoteEntity();
+        noteEntity.setId(10);
+        noteEntity.setName("Primera Nota");
+
+        Bundle bundle= new Bundle();
+        bundle.putSerializable("ENTITY", noteEntity);
         //Actividad inicial, Siguiente Actividad
         Intent intent = new Intent(SplashActivity.this,
                 LoginActivity.class);
