@@ -103,7 +103,7 @@ User Interface II
         startActivity(intent);
     ```
     
-    Para recibir la información que enviabas en la nueva Activity lo podemos realizar la siguiente manera:
+    Para recibir la información que se envia a la nueva Activity lo podemos realizar la siguiente manera:
     ```
        private void extras(){
             if(getIntent()!=null && getIntent().getExtras()!=null){
