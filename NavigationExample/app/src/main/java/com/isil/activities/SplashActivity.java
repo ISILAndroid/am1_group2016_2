@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.isil.activities.model.NoteEntity;
+
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -21,10 +23,10 @@ public class SplashActivity extends Activity {
         {
             @Override
             public void run() {
+
                 //Actividad inicial, Siguiente Actividad
                 Intent intent = new Intent(SplashActivity.this,
                         LoginActivity.class);
-                //Intent intent = new Intent(SplashActivity.this, MainActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -32,6 +34,13 @@ public class SplashActivity extends Activity {
 
         Timer timer = new Timer();
         timer.schedule(task, SPLASH_SCREEN_DELAY);
+    }
+
+    private void extras(){
+        if(getIntent()!=null && getIntent().getExtras()!=null){
+            Bundle bundle = getIntent().getExtras();
+            NoteEntity noteEntity= (NoteEntity) bundle.getSerializable("ENTITY");
+        }
     }
 
 

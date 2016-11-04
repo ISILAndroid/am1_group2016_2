@@ -52,7 +52,7 @@ public class AddNoteActivity extends Activity {
 
         Calendar calendar= Calendar.getInstance();
         String ndate= ""+calendar.getTime();
-        NoteEntity last= application.lastNote();
+        NoteEntity last= application.getNoteRepository().lastNote();
         int noteId;
         if(last!=null)
         {
@@ -63,6 +63,6 @@ public class AddNoteActivity extends Activity {
         }
         NoteEntity noteEntity= new NoteEntity(noteId,name,desc,ndate);
         noteEntity.setIcon(R.drawable.ic_note);
-        application.addNote(noteEntity);
+        application.getNoteRepository().addNote(noteEntity);
     }
 }

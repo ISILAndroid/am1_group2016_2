@@ -63,13 +63,13 @@ public class NoteDetailActivity extends Activity {
 
         NoteEntity note= new NoteEntity(noteEntity.getId(),name,desc);
         note.setIcon(icon);
-        noteApplication.updateNoteById(noteEntity.getId(), note);
+        noteApplication.getNoteRepository().updateNoteById(noteEntity.getId(), note);
     }
 
     private void deleteNote()
     {
         int noteId= noteEntity.getId();
-        noteApplication.removeNoteById(noteId);
+        noteApplication.getNoteRepository().removeNoteById(noteId);
     }
 
     private void ui() {

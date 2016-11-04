@@ -49,7 +49,7 @@ public class MainActivity extends Activity {
     private void loadData() {
 
         NoteApplication application= (NoteApplication)getApplication();
-        data= application.allNotes();
+        data= application.getNoteRepository().allNotes();
     }
 
     private void ui() {
