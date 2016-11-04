@@ -54,6 +54,7 @@ User Interface II
         </manifest>
 
     ```
+    En este caso "SplashActivity" es la primera Activity que se ejecuta .
     
     - Intent
     
