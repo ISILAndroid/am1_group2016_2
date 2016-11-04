@@ -102,6 +102,26 @@ User Interface II
         intent.putExtras(bundle);
         startActivity(intent);
     ```
+    
+    Para recibir la información que enviabas en la nueva Activity lo podemos realizar la siguiente manera:
+    ```
+       private void extras(){
+            if(getIntent()!=null && getIntent().getExtras()!=null){
+                Bundle bundle = getIntent().getExtras();
+                int value= bundle.getInt("NUMBER");
+                String name= bundle.getString("NAME");
+            }
+        }
+    ```
+    
+    ```
+         private void extras(){
+                if(getIntent()!=null && getIntent().getExtras()!=null){
+                    Bundle bundle = getIntent().getExtras();
+                    NoteEntity noteEntity= (NoteEntity) bundle.getSerializable("ENTITY");
+                }
+            }
+    ```
         
 References :
 
