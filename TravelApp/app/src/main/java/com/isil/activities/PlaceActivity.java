@@ -8,6 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.isil.activities.model.Place;
+import com.isil.activities.utils.StringUtils;
 
 import org.w3c.dom.Text;
 
@@ -20,11 +21,13 @@ public class PlaceActivity extends AppCompatActivity {
     private View flayHeader;
     private TextView tviNick;
     private Place place;
+    private StringUtils stringUtils;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_place);
+        stringUtils= new StringUtils();
         extras();
         ui();
         populate();
@@ -33,9 +36,10 @@ public class PlaceActivity extends AppCompatActivity {
     private void populate() {
         if(place==null)return;
 
-
+        String nick= place.getNick();
+        nick= stringUtils.firstCapitalize(nick);
         tviTitle.setText(place.getTitle());
-        tviNick.setText(place.getNick());
+        tviNick.setText(nick);
         tviDesc.setText(place.getDesc());
         flayHeader.setBackgroundColor(Color.parseColor(place.getHeaderColor()));
         iviPlace.setImageResource(place.getPhoto());

@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.isil.activities.R;
 import com.isil.activities.model.Place;
+import com.isil.activities.utils.StringUtils;
 
 import java.util.List;
 
@@ -19,14 +20,16 @@ import java.util.List;
  */
 public class PlaceAdapter extends BaseAdapter  {
 
-    private int DESCLMAX=20;
+    private int DESCLMAX=30;
     private Context context;
     private List<Place> places;
+    private StringUtils stringUtils;
 
 
     public PlaceAdapter(Context context, List<Place> places) {
         this.context = context;;
         this.places = places;
+        this.stringUtils= new StringUtils();
     }
 
     @Override
@@ -65,7 +68,7 @@ public class PlaceAdapter extends BaseAdapter  {
             ViewHolder holder = (ViewHolder)v.getTag();
             String nick=entry.getNick();
             String desc= entry.getDesc();
-            if(nick.length()>=0) nick= nick.substring(0,1);
+            nick= stringUtils.first(nick).toUpperCase();
             if(desc.length()>=DESCLMAX) desc= desc.substring(0,DESCLMAX)+"...";
             holder.tviNick.setText(nick);
             holder.tviTitle.setText(entry.getTitle());

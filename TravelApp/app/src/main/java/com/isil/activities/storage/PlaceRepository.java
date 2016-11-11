@@ -24,15 +24,25 @@ public class PlaceRepository {
         Calendar calendar= Calendar.getInstance();
         String ndate= ""+calendar.getTime();
 
-        Place place1= new Place(1,"Cuzco","Cuzco - Machu Picchu - Camino Inca",
+        Place place1= new Place(1,"cuzco","Cuzco - Machu Picchu - Camino Inca",
                 "La Capital Arqueológica de América; constituye el mayor atractivo turístico del Perú y el más visitado. Cuzco fue la más grande ciudad y capital del Imperio Inca, luego fue tomada por los conquistadores españoles. Hoy en día muestra una arquitectura que fusiona el estilo Inca con el español. Su pueblo conserva con orgullo sus costumbres y tradiciones. Un lugar obligado para conocer es la mística y enigmática Machu Picchu la ciudad sagrada de los Incas que los conquistadores nunca conocieron y que fue descubirta a la cultura occidental en 1911, para llegar a ella también a través de la más famosa caminata el Camino Inca. Cuzco, como Machu Picchu, por su valor histórico y por su belleza han sido considerados como Patrimonio de la Humanidad. El Valle Sagrado de los Incas, Choquequirao, el Parque Nacional del Manu y muchos otros fascinantes lugares están esperando por usted.",
                 R.mipmap.ic_cuzco, "#ff00ff");
-        Place place2= new Place(1,"Puno","Lago Titicaca y Puno",
+        Place place2= new Place(2,"puno","Lago Titicaca y Puno",
                 "Puno está localizado en las alturas de los Andes, a orillas del Titicaca, el lago navegable más alto del mundo habitado por los Uros y con maravillos paisajes. En las islas de Amantani y Taquile podrá tener la experiencia de compartir la vida con sus nativos y hacer turismo vivencial. Tierra del legendario pueblo Aymara y la Cultura Tiahuanaco. Puno es la capital folklórica del Perú. La fiesta de la Virgen de la Candelaria celebrada en febrero, es una extraordinaria oportunidad de vivir las tradiciones del pueblo puneño. Ofrece una excelente alternativa para el turismo arqueológico, de culturas vivas y biodiversidad.",
                 R.mipmap.ic_puno, "#2196F3");
 
+        Place place3= new Place(3,"arequipa","Lago Titicaca y Puno",
+                "Puno está localizado en las alturas de los Andes, a orillas del Titicaca, el lago navegable más alto del mundo habitado por los Uros y con maravillos paisajes. En las islas de Amantani y Taquile podrá tener la experiencia de compartir la vida con sus nativos y hacer turismo vivencial. Tierra del legendario pueblo Aymara y la Cultura Tiahuanaco. Puno es la capital folklórica del Perú. La fiesta de la Virgen de la Candelaria celebrada en febrero, es una extraordinaria oportunidad de vivir las tradiciones del pueblo puneño. Ofrece una excelente alternativa para el turismo arqueológico, de culturas vivas y biodiversidad.",
+                R.mipmap.ic_chiclayo, "#8BC34A");
+
         places.add(place1);
         places.add(place2);
+        places.add(place3);
+        places.add(place1);
+        places.add(place2);
+        places.add(place1);
+        places.add(place2);
+        places.add(place3);
     }
 
     public void addPlace(Place place)

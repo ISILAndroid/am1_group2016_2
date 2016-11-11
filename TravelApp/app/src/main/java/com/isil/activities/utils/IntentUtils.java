@@ -12,13 +12,13 @@ import java.util.List;
  */
 public class IntentUtils {
 
-    public static boolean isIntentAvailable(Context context, Intent intent) {
+    public  boolean isIntentAvailable(Context context, Intent intent) {
         PackageManager packageManager = context.getPackageManager();
         List<ResolveInfo> list = packageManager.queryIntentActivities(intent, PackageManager.MATCH_DEFAULT_ONLY);
         return list.size() > 0;
     }
 
-    public static Intent shareText(String subject, String text) {
+    public  Intent shareText(String subject, String text) {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_SEND);
         if (!subject.isEmpty()) {
